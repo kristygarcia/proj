@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+h1{
+  text-align: center;
+}
+
+.topNav{
+  background-color:#CCED70;
+  display:flex;
+  justify-content: space-evenly;
+  padding:20px;
+}
+
+a{
+  text-decoration: none;
+  color:#697740;
+  font-weight: bolder;
+}
+
+
+.house{
+  width:500px;
+  height:500px;
+  float:left;
+}
+
+.text{
+  
+  background-color:#CCED70;
+  margin-left:300px;
+  box-shadow: 10px 10px 2px #697740;
+  padding:10px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
