@@ -2,53 +2,92 @@
 <html>
 
 <head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 
-
-  
-    <h1>It Takes A Village</h1>
-
+<header>
+  <div class = "navBar">
+    <div class = "topText">
+      <h2 class = "translate">Translate Site</h2>
+    </div>
+     <a href = "index.html"><img class = "logo" src = "logo.png"></a>
+    </div>
   <div class = "topNav">
-    <a href = "about.html">About Us</a>
-    <a href = "funding.html">Funding</a>
-    <a href = "resources.html">Resources</a>
-    <a href = "getInvolved.html">Get Involved</a>
+ 
+    <ul class = "navChoice">
+      <li><a href = "about.html">About Us</a></li>
+    <li><a href = "resources.html">Resources</a></li>
+    <li><a href = "giveBack.html">Give Back</a></li>
+    <li><a href = "forum.html">Forum</a></li>
+    </ul>
+    
   </div>
+  </div>
+  </header>
 
   
 </head>
 
 <body>
+  
   <script src="script.js"></script>
+<div class = "container">
+<img class = "banner" src = "banner.jpg">
+<h2 class = "imgText">Find Resources that <strong>you</strong> can understand.</h2>
+<button class = "learnMore"><a href = "resources.html"><h2>Learn More</h2></a></button>
+</div>
 
 
- 
-
-  <div class = "bottom">
-    <div class = "image">
-     <img class = "house" src = "house.png">
+<div class = "wrapper">
+  <ul class = "items">
+  <div class = "box" id = "box1">
+  <button class = "buttonTxt"><a href = "funding.html">Funding Opportunities</a></button>
+  </div>
+    <div class = "box" id = "box2">
+  <button class = "buttonTxt"><a href = "resources.html">Care Resources</a></button>
     </div>
-    <div class = "text">
-     <h2>Because it takes a village to care for a child.</h2>
+    <div class = "box" id = "box3">
+ <button class = "buttonTxt"><a href = "forum.html">Forum</a></button>
     </div>
+    </ul>
+</div>
+
+
+<div class = "mission">
+  <div class = "missionTxt">
+    <h2 id = "missStat">Our Mission</h2>
+  </div>
+  <div class = "missionPTxt">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus auctor auctor. Duis rutrum mauris non nisi blandit, at ultricies nisl elementum. Vivamus tristique ac enim et pharetra. Ut non malesuada tellus. Mauris sed sapien auctor, rutrum ante in, vulputate odio. Donec aliquam malesuada elit sed semper. Aliquam euismod volutpat mauris at venenatis. Proin eu faucibus odio. Donec aliquet mi nec lorem mollis suscipit. Ut at sem aliquet, vulputate magna sit amet, consequat metus. Suspendisse vitae iaculis enim, placerat volutpat ex. Vestibulum quis pharetra leo.</p>
+  </div>
+</div>
+
+
+
+<h2 class = "headerBot">Want to Help Out?</h2>
+<div class = "helpButtons">
+  
+  <a href = "giveBack.html"><button class = "helpb" id = "volunteer">Volunteer to Translate</button></a>
+    <a href = "giveBack.html"><button class = "helpb">Donate materials</button></a>
+
+</div>
+
+  <h2 class = "headerBot">Request a Language</h2>
+  <p class = "requestTxt">Don’t see the language you speak in our offerings? We are constantly trying to expand the languages that we are translating our resources into and would love to know what other languages you would like to see!</p>
+  <div class = "forumBut">
+  <a href = "forum.html"><button class = "helpb">Request a Language</button></a>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
+  <footer>
+    <div class = "foot">
+    </div>
+  </footer>
 </body>
 
 </html>

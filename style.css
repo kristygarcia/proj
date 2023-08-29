@@ -1,47 +1,247 @@
 html, body {
-  height: 100%;
-  width: 100%;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
 
-h1{
-  text-align: center;
+  width:100%;
+    margin-top:0;
+  margin-left:0;
 }
-
-.topNav{
-  background-color:#CCED70;
-  display:flex;
-  justify-content: space-evenly;
-  padding:20px;
-}
-
 a{
   text-decoration: none;
-  color:#697740;
-  font-weight: bolder;
+}
+strong{
+  font-weight:600;
 }
 
 
-.house{
-  width:500px;
-  height:500px;
-  float:left;
+
+header{
+  background-color: #FFE68F;
+  margin-top:0px;
+}
+.navChoice{
+  display:inline-flex;
+  justify-content:space-evenly;
+  padding-left:0;
+  width:100%;
+    
 }
 
-.text{
+.navChoice li{
+  font-weight:600;
+}
+.logo{
+  display:block;
+  width:200px;
+  height:100px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+li{
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+  color:#FF914D;
+  font-size:20px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+li a:hover{
+  color:#8B3D0D;
+}
+.topNav{
+  display:flex;
+  justify-content:space-evenly;
+
+}
+
+.items{
+  display:flex;
+  margin-left:0;
+  padding:0;
+    justify-content: space-evenly;
+  font-family: 'Fredoka', sans-serif;
+  font-weight:500;
   
-  background-color:#CCED70;
-  margin-left:300px;
-  box-shadow: 10px 10px 2px #697740;
+}
+
+.translate{
+  margin-top:0;
+  font-family: 'Fredoka', sans-serif;
+  font-weight:500;
+  color:#FF914D;
+  margin-left:20px;
+}
+
+.translate:hover{
+  color:#8B3D0D;
+  cursor:pointer;
+}
+
+.banner{
+  width:100%;
+  height:70vh;
+  opacity:60%;
+}
+
+.container{
+  position:relative;
+}
+.imgText{
+  position:absolute;
+  bottom:10%;
+  right:6%;
+  -ms-transform: translate(-6%, -10%);
+  transform: translate(-6%, -10%);
+  font-family: 'Fredoka', sans-serif;
+  color:black;
+   font-weight:500;
+  width:400px;
+  font-size:60px;
+}
+
+.learnMore{
+  position:absolute;
+  right:290px;
+  bottom:10px;
+  background-color:white;
+  padding-right:50px;
+  padding-left:50px;
+  
+}
+.learnMore h2{
+  color:black;
+  font-family: 'Fredoka', sans-serif;
+}
+.learnMore:hover{
+  background-color:#FFE68F;
+  transition:background-color .5s  ease-in-out;
+}
+
+#box1{
+ background-image:url("funding.jpg");
+  
+}
+
+#box2{
+   background-image:url("resources.jpg");
+}
+#box3{
+   background-image:url("forum.jpg");
+}
+.box{
+  
+  
+  opacity:80%;
+  background-size: cover;
+  width:30vw;
+  height:30vw;
+ 
+  position:relative;
+}
+
+.buttonTxt{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:20vw;
+  height:14vh;
+  background-color:white;
+  
+}
+
+.buttonTxt a{
+  font-size:2vw;
+  color:black;
+  font-family: "Fredoka", sans-serif;
+}
+
+.wrapper{
+  margin-top:5%;
+}
+
+.mission{
+  display:flex;
+  margin-top:5vh;
+}
+
+.missionTxt{
+ 
+  padding-top: 5vh;
+
+  text-align: center;
+  width:30vw;
+  margin-right:5vw;
+ 
+  background-color:orange;
+  margin-left:5vw; 
+  font-size:4vw;
+  font-family:'Fredoka',sans-serif;
+  
+  
+}
+
+.missionPTxt{
+  width:60vw;
+  height:40vh;
+  font-size: 2vw;
+  font-family:'Fredoka',sans-serif;
+  margin-right:5vw;
+}
+
+.headerBot{
+  text-align: center;
+  margin-top:10vh;
+    font-size:4vw;
+  color:black;
+  font-family:'Fredoka',sans-serif;
+}
+.helpButtons{
+
+  text-align:center;
+
+  
+}
+
+.helpb{
   padding:10px;
+  width:30vw;
+  height:20vh;
+  background-color:white;
+  border:5px black solid;
+  font-family:'Fredoka',sans-serif;
+  font-weight:400;
+  font-size:2vw;
 }
 
-.bottom{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.requestTxt{
+  margin-left:10vw;
+  margin-right:10vw;
+  font-size:2vw;
+  font-family:'Fredoka',sans-serif;
+  text-align:center;
+}
+.forumBut{
+  text-align: center;
+  
 }
 
+#volunteer{
+  margin-right:10vw;
+}
 
+footer{
+  margin-top:100px;
+  width:100%;
+  height: 400px;
+  background-color:orange;
+}
 
+.helpb:hover{
+  cursor:pointer;
+  background-color:yellow;
+}
